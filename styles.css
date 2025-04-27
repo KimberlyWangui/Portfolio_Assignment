@@ -16,23 +16,32 @@ body {
 .profile {
   flex: 1;
   text-align: center;
+  margin-left: 70px;
+  margin-top: 35px;
+  padding: 20px;
 }
 
 .profile-img {
   width: 100%;
-  max-width: 300px;
-  border-radius: 10px;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.bio-section {
+  background-color: #ffffff;
 }
 
 .bio {
   flex: 2;
   padding: 20px;
+  margin-top: 85px;
+  margin-left: 20px;
 }
 
 .bio h4 {
   font-size: 14px;
   font-weight: 600;
-  color: #c0c7c8;
+  color: #8f9292;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -42,19 +51,20 @@ body {
   font-weight: 700;
   color: #333;
   margin-bottom: 10px;
+  padding-right: 25px;
 }
 
 .bio-text {
   display: grid;
   grid-template-columns: 1fr;
   gap: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .bio-text p {
-  font-size: 16px;
+  font-size: 14px;
   color: #555;
-  line-height: 1.8;
+  line-height: 0.5;
   margin-bottom: 15px;
 }
 
@@ -66,8 +76,8 @@ body {
 }
 
 .details {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -96,26 +106,35 @@ body {
   color: #2c7a7b;
   font-size: 18px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .buttons {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .buttons .btn {
   margin-right: 16px;
+  font-size: 14px;
+  padding: 5px 15px;
+  margin-bottom: 40px;
 }
 
 .btn.hire {
   background-color: #007e68;
   color: #fff;
   margin-top: 15px;
+  border: none;
+  border-radius: 20px;
 }
 
 .btn.download {
   background-color: #00c16e;
   color: #fff;
   margin-top: 15px;
+  border: none;
+  border-radius: 20px;
 }
 
 .services {
@@ -178,9 +197,4 @@ body {
 
 .text-center a.btn-link:hover {
   text-decoration: underline;
-}
-
-.bio-section {
-  background-color: #ffffff;
-  padding: 20px;
 }
