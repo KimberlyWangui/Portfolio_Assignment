@@ -1,200 +1,230 @@
+/* General body styling */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
+  font-family: Arial, sans-serif; /* Set font family */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f9f9f9; /* Light gray background */
 }
 
+/* Container for layout alignment */
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100%;
-  padding: 20px;
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  min-height: 100%; /* Full height */
+  padding: 20px; /* Add padding around the container */
 }
 
+/* Profile section styling */
 .profile {
-  flex: 1;
-  text-align: center;
-  margin-left: 70px;
-  margin-top: 35px;
-  padding: 20px;
+  flex: 1; /* Take up one part of the flex container */
+  text-align: center; /* Center-align text */
+  margin-left: 70px; /* Add left margin */
+  margin-top: 35px; /* Add top margin */
+  padding: 20px; /* Add padding inside the profile */
 }
 
+/* Profile image styling */
 .profile-img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 5px;
+  width: 100%; /* Full width */
+  max-width: 400px; /* Maximum width */
+  border-radius: 5px; /* Rounded corners */
 }
 
+/* Bio section styling */
 .bio-section {
-  background-color: #ffffff;
+  background-color: #ffffff; /* White background */
 }
 
+/* Bio content styling */
 .bio {
-  flex: 2;
-  padding: 20px;
-  margin-top: 85px;
-  margin-left: 20px;
+  flex: 2; /* Take up two parts of the flex container */
+  padding: 20px; /* Add padding inside the bio */
+  margin-top: 85px; /* Add top margin */
+  margin-left: 20px; /* Add left margin */
 }
 
+/* Bio heading styling */
 .bio h4 {
-  font-size: 14px;
-  font-weight: 600;
-  color: #8f9292;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+  font-size: 14px; /* Small font size */
+  font-weight: 600; /* Semi-bold font */
+  color: #8f9292; /* Light gray color */
+  text-transform: uppercase; /* Uppercase text */
+  margin-bottom: 10px; /* Space below the heading */
 }
 
+/* Bio main title styling */
 .bio h1 {
-  font-size: 28px;
-  font-weight: 700;
-  color: #333;
-  margin-bottom: 10px;
-  padding-right: 25px;
+  font-size: 28px; /* Large font size */
+  font-weight: 700; /* Bold font */
+  color: #333; /* Dark gray color */
+  margin-bottom: 10px; /* Space below the title */
+  padding-right: 25px; /* Add right padding */
 }
 
+/* Bio text styling */
 .bio-text {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 5px;
-  margin-bottom: 10px;
+  display: grid; /* Use grid layout */
+  grid-template-columns: 1fr; /* Single column */
+  gap: 5px; /* Space between grid items */
+  margin-bottom: 10px; /* Space below the text */
 }
 
+/* Paragraphs inside bio text */
 .bio-text p {
-  font-size: 14px;
-  color: #555;
-  line-height: 0.5;
-  margin-bottom: 15px;
+  font-size: 14px; /* Small font size */
+  color: #555; /* Medium gray color */
+  line-height: 0.5; /* Tight line spacing */
+  margin-bottom: 15px; /* Space below each paragraph */
 }
 
+/* Divider styling */
 .divider {
-  border: 0;
-  height: 1px;
-  background: #ddd;
-  margin: 20px 0;
+  border: 0; /* Remove border */
+  height: 1px; /* Thin line */
+  background: #ddd; /* Light gray color */
+  margin: 20px 0; /* Space above and below the divider */
 }
 
+/* Details section styling */
 .details {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 20px; /* Space between grid items */
 }
 
+/* Individual detail item styling */
 .detail-item {
-  display: flex;
-  flex-direction: column;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
 }
 
+/* Paragraphs inside details */
 .details p {
-  font-size: 14px;
-  color: #333;
-  margin: 5px 0;
+  font-size: 14px; /* Small font size */
+  color: #333; /* Dark gray color */
+  margin: 5px 0; /* Space above and below each paragraph */
 }
 
+/* Social links section styling */
 .social-links {
-  margin-top: 20px;
+  margin-top: 20px; /* Space above the social links */
 }
 
+/* Paragraph inside social links */
 .social-links p {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 10px;
+  font-size: 14px; /* Small font size */
+  color: #555; /* Medium gray color */
+  margin-bottom: 10px; /* Space below the paragraph */
 }
 
+/* Social link icons */
 .social-links a {
-  color: #2c7a7b;
-  font-size: 18px;
-  margin-right: 10px;
-  margin-left: 10px;
+  color: #2c7a7b; /* Teal color */
+  font-size: 18px; /* Medium icon size */
+  margin-right: 10px; /* Space to the right of each icon */
+  margin-left: 10px; /* Space to the left of each icon */
 }
 
+/* Buttons section styling */
 .buttons {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 10px; /* Space above the buttons */
+  margin-bottom: 20px; /* Space below the buttons */
 }
 
+/* Buttons inside the buttons section */
 .buttons .btn {
-  margin-right: 16px;
-  font-size: 14px;
-  padding: 5px 15px;
-  margin-bottom: 40px;
+  margin-right: 16px; /* Space to the right of each button */
+  font-size: 14px; /* Small font size */
+  padding: 5px 15px; /* Padding inside the button */
+  margin-bottom: 40px; /* Space below the button */
 }
 
+/* Hire button styling */
 .btn.hire {
-  background-color: #007e68;
-  color: #fff;
-  margin-top: 15px;
-  border: none;
-  border-radius: 20px;
+  background-color: #007e68; /* Green background */
+  color: #fff; /* White text */
+  margin-top: 15px; /* Space above the button */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded corners */
 }
 
+/* Download button styling */
 .btn.download {
-  background-color: #00c16e;
-  color: #fff;
-  margin-top: 15px;
-  border: none;
-  border-radius: 20px;
+  background-color: #00c16e; /* Light green background */
+  color: #fff; /* White text */
+  margin-top: 15px; /* Space above the button */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded corners */
 }
 
+/* Services section styling */
 .services {
-  background-color: #f8f9fa;
-  padding: 140px 0;
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 140px 0; /* Vertical padding */
 }
 
+/* Services heading styling */
 .services h2 {
-  font-size: 25px;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 16px;
+  font-size: 25px; /* Large font size */
+  font-weight: 600; /* Semi-bold font */
+  color: #333; /* Dark gray color */
+  margin-bottom: 16px; /* Space below the heading */
 }
 
+/* Card styling */
 .card {
-  width: 288px;
-  height: 188px;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 288px; /* Fixed width */
+  height: 188px; /* Fixed height */
+  margin-bottom: 10px; /* Space below the card */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Slightly rounded corners */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+/* Card body styling */
 .card-body {
-  text-align: left;
+  text-align: left; /* Align text to the left */
 }
 
+/* Service icon styling */
 .service-icon {
-  font-size: 24px;
-  color: #2c7a7b;
-  margin-bottom: 16px;
-  text-align: left;
+  font-size: 24px; /* Medium icon size */
+  color: #2c7a7b; /* Teal color */
+  margin-bottom: 16px; /* Space below the icon */
+  text-align: left; /* Align icon to the left */
 }
 
+/* Card title styling */
 .card-title {
-  font-size: 16px;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 10px;
-  text-align: left;
+  font-size: 16px; /* Medium font size */
+  font-weight: 600; /* Semi-bold font */
+  color: #333; /* Dark gray color */
+  margin-bottom: 10px; /* Space below the title */
+  text-align: left; /* Align title to the left */
 }
 
+/* Card text styling */
 .card-text {
-  font-size: 14px;
-  color: #555;
-  line-height: 21px;
-  text-align: left;
+  font-size: 14px; /* Small font size */
+  color: #555; /* Medium gray color */
+  line-height: 21px; /* Line height for readability */
+  text-align: left; /* Align text to the left */
 }
 
+/* Link styling inside text-center */
 .text-center a.btn-link {
-  font-size: 16px;
-  font-weight: 600;
-  color: #2c7a7b;
-  text-decoration: none;
+  font-size: 16px; /* Medium font size */
+  font-weight: 600; /* Semi-bold font */
+  color: #2c7a7b; /* Teal color */
+  text-decoration: none; /* Remove underline */
 }
 
+/* Hover effect for links */
 .text-center a.btn-link:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Add underline on hover */
 }
