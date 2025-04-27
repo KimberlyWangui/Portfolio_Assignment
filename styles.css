@@ -116,3 +116,62 @@ body {
   border-top: 1px solid #ddd;
   margin: 20px 0;
 }
+
+/* Services Section */
+.services {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 3rem 0; /* Vertical padding */
+}
+
+.services h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333; /* Dark text color */
+  margin-bottom: 2rem;
+}
+
+.card {
+  border: none; /* Remove card border */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift card on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.card-body {
+  padding: 2rem; /* Add padding inside the card */
+}
+
+.service-icon {
+  font-size: 2.5rem; /* Larger icon size */
+  color: #2c7a7b; /* Teal color */
+  margin-bottom: 1rem; /* Space below the icon */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333; /* Dark text color */
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555; /* Medium gray text */
+  line-height: 1.6; /* Improve readability */
+}
+
+.text-center a.btn-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c7a7b; /* Teal color for link */
+  text-decoration: none;
+}
+
+.text-center a.btn-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
