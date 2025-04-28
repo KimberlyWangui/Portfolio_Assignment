@@ -406,31 +406,7 @@ body {
   border-radius: 8px;
 }
 
-footer {
-    background-color: #7aaf58;
-    color: #b95050;
-    padding: 20px;
-    text-align: center;
-  }
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  .footer-section {
-    margin: 0 10px;
-  }
-  .footer-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  .footer-section a {
-    color: #00bcd4;
-    text-decoration: none;
-  }
-  .footer-note {
-    margin-top: 20px;
-    font-size: 0.8em;
-  }
+
 
 /* Responsive Design */
 @media (max-width: 992px) {
