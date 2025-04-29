@@ -32,6 +32,6 @@ Our team worked collaboratively to match the look and functionality of the origi
 ## 👥 Contributors
 
 - Maryama Mustafa
-- Ezra
+- Evan
 - Kimberly Wangui
 
